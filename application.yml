@@ -11,8 +11,8 @@ spring:
 server:
   port: 9090     
 
-config:
-  cartoon:
-    minNumOfCartoonToDiscount: 3
-    discountInPercentage: 0.1
-    increasedInPercentage: 0.3
+
+cartoon:
+   minNumOfCartoonToDiscount: 3
+   discountInPercentage: 0.1
+   increasedInPercentage: 0.3
