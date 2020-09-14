@@ -10,3 +10,9 @@ spring:
     database-platform: org.hibernate.dialect.Oracle10gDialect
 server:
   port: 9090     
+
+config:
+  cartoon:
+    minNumOfCartoonToDiscount: 3
+    discountInPercentage: 0.1
+    increasedInPercentage: 0.3
